@@ -1,0 +1,54 @@
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+  z-index: 10;
+  position: fixed;
+  box-sizing: border-box;
+}
+.hamburger {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 30px;
+  position: relative;
+}
+
+.hamburger span {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+.ramen {
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+}
+.icons {
+  display: flex;
+  float: right;
+  position: relative;
+  top: 8px;
+}
+.list {
+  color: rgb(234, 37, 37);
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  
+}
+.nav {
+  background-color: #000;
+  opacity: 0.3;
+}
+.ramenman {
+
+}
