@@ -1,5 +1,5 @@
 // import Head from "next/head";
-// import Header from "@/components/Header";
+import Header from "../components/Header";
 // import Footer from "@/components/Footer";
 // import RamenMap from "@/components/RamenMap";
 import styles from "./page.module.css";
@@ -19,7 +19,7 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
         {/* <title>らーめんカタログ（仮）</title> */}
       <div className={styles.container}>
-        {/* <Header /> */}
+        <Header />
       </div>
       <main className={styles.main}>
         <div className={styles.top}>
